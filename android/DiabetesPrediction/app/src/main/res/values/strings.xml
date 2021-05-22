@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Diabetes Prediction</string>
+
+    <string name="nameerror">Enter Valid name</string>
+    <string name="noperror">Enter Valid details</string>
+    <string name="glerror">Enter Valid details</string>
+    <string name="bperror">Enter Valid details</string>
+    <string name="sterror">Enter Valid details</string>
+    <string name="insulinerror">Enter Valid details</string>
+    <string name="bmierror">Enter Valid details</string>
+    <string name="dpferror">Enter Valid details</string>
+    <string name="ageerror">Enter Valid details</string>
+</resources>

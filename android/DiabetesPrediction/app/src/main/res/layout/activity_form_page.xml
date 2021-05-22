@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/purple_200"
+    tools:context=".FormPage">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <!--    Image-->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/dia"/>
+            <!--    Heading-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Form"
+                android:textColor="@color/black"
+                android:textSize="40sp"
+                android:gravity="center"
+                android:layout_marginTop="20sp"/>
+            <!--    Name of the user-->
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:hint="Enter your name"
+                android:id="@+id/et_name"
+                android:background="@color/white"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="5sp"
+                android:layout_marginTop="5sp"/>
+            <!--    No of Pregnancies-->
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:hint="Enter your Number of pregnancies"
+                android:background="@color/white"
+                android:id="@+id/et_nop"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="5sp"
+                android:layout_marginTop="10sp"/>
+            <!--    Glucose Level-->
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:hint="Enter your Glucose Level"
+                android:background="@color/white"
+                android:id="@+id/et_gl"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="5sp"
+                android:layout_marginTop="10sp"/>
+            <!--    Blood Pressure-->
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:hint="Enter your Blood Pressure"
+                android:background="@color/white"
+                android:id="@+id/et_bp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="5sp"
+                android:layout_marginTop="10sp"/>
+            <!--    Skin Thickness-->
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:hint="Enter your Skin Thickness"
+                android:background="@color/white"
+                android:id="@+id/et_st"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="5sp"
+                android:layout_marginTop="10sp"/>
+            <!--    Insulin-->
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:hint="Enter your Insulin Level"
+                android:background="@color/white"
+                android:id="@+id/et_insulin"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="5sp"
+                android:layout_marginTop="10sp"/>
+            <!--    Body Mass Index-->
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:textColor="@color/black"
+                android:hint="Enter BMI value"
+                android:id="@+id/et_bmi"
+                android:inputType="number"
+                android:background="@color/white"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="5sp"
+                android:layout_marginTop="10sp"/>
+            <!--    DiabetesPedigreeFunction-->
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:hint="Enter DiabetesPedigreeFunction value"
+                android:id="@+id/et_dpf"
+                android:inputType="number"
+                android:background="@color/white"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="5sp"
+                android:layout_marginTop="10sp"/>
+            <!--    Age of the user-->
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:hint="Enter your Age"
+                android:background="@color/white"
+                android:id="@+id/et_age"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="5sp"
+                android:layout_marginTop="10sp"/>
+             <!--    Submit button for response-->
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20sp"
+                android:textAllCaps="false"
+                android:text="Submit"
+                android:background="@color/purple_200"
+                android:textColor="@android:color/white"
+                android:textSize="25sp"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="30dp"
+                android:id="@+id/resButton"
+                android:onClick="MoveResult"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
